@@ -400,3 +400,43 @@ body {
         margin-top: 90px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .main_border {
+        border: 6px solid #BFBFBF;
+        margin: 0px;
+        background: #e9dca2;
+        top:0;
+        right: 0px;
+        width: 376px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .secondary_border {
+        border: 2px solid black;
+        max-width: 364px;
+    }
+
+    .socials{
+        max-width: 364px;
+    }
+
+    .pfp{
+        transform: translateX(100px);
+        top: 150px;
+        position: absolute;
+    }
+
+    .skills_box{
+        max-width: 364px;
+    }
+    .banner{
+        width: 364px;
+        position: relative;
+    }
+    .about{
+        max-width: 364px;
+        margin-top: 90px;
+    }
+}
