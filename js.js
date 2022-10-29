@@ -6,4 +6,22 @@ function myFunction() {
     } else {
       x.style.display = "none";
     }
+
+    var y = document.getElementById("mercelory_notepad");
+
+    if (y.style.display === "none") {
+      y.style.display = "flex";
+    } else {
+      y.style.display = "none";
+    }
+}
+
+function Start() {
+    var z = document.getElementById("start");
+
+    if (z.style.display === "none") {
+      z.style.display = "flex";
+    } else {
+      z.style.display = "none";
+    }
 }

@@ -32,7 +32,7 @@ body{
     color: white;
 }
 
-#mercelory{
+#mercelory, #mercelory_notepad, #start{
     display: none;
 }
 
@@ -136,7 +136,6 @@ body{
     border-style:solid;
     border-color:#FFFFFF #808080 #808080 #FFFFFF;
     padding: 3px;
-    
 }
 
 .notepad_logo{
@@ -144,6 +143,26 @@ body{
     width: 25px;
 }
 
+.start{
+    display: flex;
+}
+
+.start_open{
+    width: 300px;
+    background: #BFBFBF;
+    height: 500px;
+    bottom:0;
+    right:0;
+    transform: translateY(-540px);
+    border-width:2px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    display: flex;
+}
+
+.horn{
+    margin: auto;
+}
 
 @media screen and (max-width: 1632px) {
     .main_border{
