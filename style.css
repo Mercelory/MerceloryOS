@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #008080;
+    
+}
+
+.body_nav{
+    min-height: calc(100vh - 90px);
+}
+
+.icons {
+    width: 500px;
+}
+
+.icons_img{
+    width: 50px;
+    margin: 50px 50px 3px 50px;
+}
+
+.trash_ico_text{
+    margin-left: 55px;
+    color: white;
+}
+
+.comp_ico_text{
+    margin-left: 25px;
+    color: white;
+}
+
+#mercelory{
+    display: none;
+}
+
+.icons_webs:active{
+   color:#808080;
+}
+
+.start:active{
+    background-color: #FFFFFF;
+}
+
+.main_border{
+    position: relative;
+    border: 6px solid #BFBFBF;
+    margin: auto;
+    background: #e9dca2;
+    width: 1300px;
+    right: -150px;
+}
+
+.secondary_border{
+    border: 2px solid black;
+}
+
+.doc_name{
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    background: #BFBFBF;
+}
+
+.nav_items{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.border_icons{
+    background: white;
+    border-width:1px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    width: 18px;
+    padding: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.border_close{
+    flex-wrap: wrap;
+    display:flex;  
+    list-style:none;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pfp{
+    flex-wrap: wrap;
+    display: flex;
+    transform: translateY(-80px);
+}
+
+
+.lower_bar {
+    background-color:#BFBFBF;
+    width: 100%;
+    height: 40px;
+    padding: 3px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    display: flex;
+}
+
+.start{
+    display: flex;
+    width: 90px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    margin-left: 3px;
+}
+
+.windows_logo{
+    width: 30px;
+    margin-right: 4px;
+}
+
+.notepad{
+    background: #f4f4f4;
+    display: flex;
+    margin-left: 3px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding: 3px;
+    
+}
+
+.notepad_logo{
+    margin-right: 5px;
+    width: 25px;
+}
+
+
+@media screen and (max-width: 1632px) {
+    .main_border{
+        width: 1000px;
+    }
+  }
+
+@media screen and (max-width: 1322px) {
+    .main_border{
+        width: 700px;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .main_border{
+        width: 300px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .main_border{
+        border: 6px solid #BFBFBF;
+        margin: 0px;
+        background: #e9dca2;
+        right: 0px;
+        width: 100%;
+        height: 100vh;
+    }
+  }
