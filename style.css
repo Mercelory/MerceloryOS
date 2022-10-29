@@ -62,6 +62,7 @@ body {
 .secondary_border {
     border: 2px solid black;
     width: 1288px;
+    flex-wrap: wrap;
 }
 
 .doc_name {
@@ -103,7 +104,7 @@ body {
 }
 
 .banner {
-    width: 100%;
+    width:100%;
     height: 200px;
     object-fit: cover;
 }
@@ -142,7 +143,7 @@ body {
 
 .skills {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .skills_text {
@@ -189,10 +190,12 @@ body {
 .socials{
     width: 1000px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .socials_box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -264,19 +267,99 @@ body {
 
 @media screen and (max-width: 1632px) {
     .main_border {
-        width: 1000px;
+        max-width: 1000px;
+    }
+
+    .secondary_border {
+        border: 2px solid black;
+        max-width: 989px;
+    }
+
+    .socials{
+        max-width: 989px;
+    }
+
+    .pfp{
+        transform: translateX(400px);
+        top: 150px;
+        position: absolute;
+    }
+
+    .skills_box{
+        max-width: 989px;
+    }
+    .banner{
+        width: 989px;;
+        position: relative;
+    }
+    .about{
+        max-width: 989px;
+        margin-top: 90px;
     }
 }
 
-@media screen and (max-width: 1322px) {
+@media screen and (max-width: 1304px) {
     .main_border {
-        width: 700px;
+        max-width: 800px;
+    }
+
+    .secondary_border {
+        border: 2px solid black;
+        max-width: 789px;
+    }
+
+    .socials{
+        max-width: 789px;
+    }
+
+    .pfp{
+        transform: translateX(340px);
+        top: 150px;
+        position: absolute;
+    }
+
+    .skills_box{
+        max-width: 789px;
+    }
+    .banner{
+        width: 789px;;
+        position: relative;
+    }
+    .about{
+        max-width: 789px;
+        margin-top: 90px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .main_border {
         width: 300px;
+    }
+    
+    .secondary_border {
+        border: 2px solid black;
+        max-width: 289px;
+    }
+
+    .socials{
+        max-width: 289px;
+    }
+
+    .pfp{
+        transform: translateX(70px);
+        top: 200px;
+    }
+
+    .skills_box{
+        max-width: 289px;
+    }
+    .banner{
+        width: 289px;;
+        position: relative;
+    }
+    .about{
+        max-width: 289px;
+        margin-top: 90px;
     }
 }
 
@@ -285,8 +368,35 @@ body {
         border: 6px solid #BFBFBF;
         margin: 0px;
         background: #e9dca2;
+        top:0;
         right: 0px;
-        width: 100%;
-        height: 100vh;
+        width: 600px;
+    }
+
+    .secondary_border {
+        border: 2px solid black;
+        max-width: 589px;
+    }
+
+    .socials{
+        max-width: 589px;
+    }
+
+    .pfp{
+        transform: translateX(210px);
+        top: 150px;
+        position: absolute;
+    }
+
+    .skills_box{
+        max-width: 589px;
+    }
+    .banner{
+        width: 589px;;
+        position: relative;
+    }
+    .about{
+        max-width: 589px;
+        margin-top: 90px;
     }
 }
