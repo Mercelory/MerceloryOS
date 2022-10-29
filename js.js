@@ -25,3 +25,13 @@ function Start() {
       z.style.display = "none";
     }
 }
+
+function Doom() {
+  var z = document.getElementById("jsdos");
+
+  if (z.style.display === "none") {
+    z.style.display = "flex";
+  } else {
+    z.style.display = "none";
+  }
+}
