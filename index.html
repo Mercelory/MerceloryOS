@@ -28,18 +28,18 @@
                 <p class="mx-3 text-white w-8">mercelory.txt</p>
             </a>
         </div>
-        <div class="relative m-auto bg-amber-100 w-2/5 height overflow-y-scroll border-zinc-300 border-2 -translate-y-72" id="mercelory">
-            <div class="z-999 sticky inset-0 wrap bg-black text-white flex w-5/5 justify-between">
+        <div class="relative m-auto bg-amber-100 w-full overflow-y-scroll border-zinc-300 border-2 -translate-y-72 lg:w-3/5 height" id="mercelory">
+            <div class="z-999 sticky inset-0 bg-black text-white flex w-full justify-between">
                 <img src="ppics/notepad-1.png" class="mr-3 w-6">
                 <p class="ml-5">mercelory.txt - Notepad</p>
                 <ul class="flex flex-wrap list-none">
-                    <li> <img src="ppics/minus.png" class="w-4 bg-white border" onclick="myFunction()"> </li>
-                    <li> <img src="ppics/squares.png" class="w-4 bg-white border"> </li>
-                    <li> <img src="ppics/delete.png" class="w-4 bg-white border" onclick="myFunction()"> </li>
+                    <li> <img src="ppics/minus.png" class="w-4 mt-1 ml-3px bg-white border" onclick="myFunction()"> </li>
+                    <li> <img src="ppics/squares.png" class="w-4 mt-1 ml-3px bg-white border"> </li>
+                    <li> <img src="ppics/delete.png" class="w-4 mt-1 ml-3px bg-white border" onclick="myFunction()"> </li>
                 </ul>
             </div>
-            <div class="bg-neutral-300 w-5/5">
-                <ul class="flex flex-wrap">
+            <div class="bg-neutral-300 w-full">
+                <ul class="flex">
                     <a href="#Home">
                         <li class="mx-5 ml-5">Main</li>
                     </a>
@@ -60,13 +60,13 @@
                         <img src="ppics/wallpaperflare.com_wallpaper.jpg" class="inset-0 object-cover">
                     </div>
                 </header>
-                <div class="relative -translate-y-24 flex justify-center">
+                <div class="relative -translate-y-24 flex justify-center sm-translate-y-2">
                     <img src="ppics/359e50919f4c498ce741777c521cc297.jpg" class="w-40 h-40 rounded-full">
                 </div>
                 <section>
-                    <div class="w-5/5">
+                    <div class="w-full">
                         <h1 class="font-bold border-b-2 border-zinc-600 mx-4">AbouT!</h1>
-                        <div class="flex skill justify-between">
+                        <div class="flex skill justify-between flex-wrap">
                             <div class="w-56 m-5 p-3">
                                 <p>Hello. My name is Dima. I'm 20 years old Front-End developer and a little bit
                                     designer.</p>
@@ -78,36 +78,36 @@
                         </div>
                     </div>
                 </section>
-                <section class="w-5/5" id = "Skills">
+                <section class="w-full h-80" id = "Skills">
                     <h1 class="font-bold border-b-2 border-zinc-600 mx-4">SkillS!</h1>
                     <div>
-                        <div class="flex mx-auto justify-between">
-                            <div class="m-5 text-center">
+                        <div class="grid gap-4 grid-cols-3 grid-rows-3 min-w-0 skills">
+                            <div class="m-5 text-center w-15">
                                 <img src="ppics/HTML5.png" class = "m-auto w-8">
                                 <h1>HTML</h1>
                                 <h2 class = "text-center text-sm">advanced</h2>
                             </div>
-                            <div class="m-5 text-center">
+                            <div class="m-5 text-center w-15">
                                 <img src="ppics/CSS.png" class = "m-auto w-8">
                                 <h1>CSS</h1>
                                 <h2 class = "text-center text-sm">advanced</h2>
                             </div>
-                            <div class="m-5 text-center">
+                            <div class="m-5 text-center w-15">
                                 <img src="ppics/JS.png" class = "m-auto w-8">
                                 <h1>JS</h1>
                                 <h2 class = "text-center text-sm">beginner</h2>
                             </div>
-                            <div class="m-5 text-center">
+                            <div class="m-5 text-center w-15">
                                 <img src="ppics/C++_ICON.png" class = "m-auto w-8">
                                 <h1>C++</h1>
                                 <h2 class = "text-center text-sm">low</h2>
                             </div>
-                            <div class = "m-5 text-center">
+                            <div class = "m-5 text-center w-15">
                                 <img src="ppics/tailwind-icon-512x308-ienw2ldx.png" class = "m-auto w-8">
                                 <h1 class = "mt-3">Tailwind</h1>
                                 <h2 class = "text-center text-sm">advanced</h2>
                             </div>
-                            <div class = "m-5 text-center">
+                            <div class = "m-5 text-center w-15">
                                 <img src="ppics/sass-226054.png" class = "m-auto w-8">
                                 <h1>SASS/SCSS</h1>
                                 <h2 class = "text-center text-sm">advanced</h2>
@@ -115,29 +115,29 @@
                         </div>
                     </div>
                 </section>
-                <section class = "w-5/5 flex-wrap" id = "Socials">
+                <section class = "w-full" id = "Socials">
                     <h1 class = "font-bold border-b-2 border-zinc-600 mx-4">SocialS!</h1>
-                    <div class = "flex justify-between">
-                        <div class = "instagram">
+                    <div class = "inline-flex justify-between m-5 text-sm xl:text-base">
+                        <div class = "m-2">
                             <a href = "https://instagram.com/molchimoichii?igshid=YmMyMTA2M2Y=" target="_blank"><p>Instagram!</p></a>
                         </div>
-                        <div class = "Telegram">
+                        <div class = "m-2">
                             <a href = "https://t.me/syqqqa" target="_blank"><p>Telegram!</p></a>
                         </div>
-                        <div class = "Mail">
+                        <div class = "m-2">
                             <a href = "mailto:mercelory@gmail.com" target="_blank"><p>Mail!</p></a>
                         </div>
-                        <div class = "Location">
+                        <div class = "m-2">
                             <a href = "https://www.google.com.ua/maps/place/%D0%9A%D1%80%D0%B8%D0%B2%D0%BE%D0%B9+%D0%A0%D0%BE%D0%B3,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+50000/@47.9074811,33.0863397,10z/data=!3m1!4b1!4m6!3m5!1s0x40dadfe03154ab7b:0xb0fa3a177d6b186e!8m2!3d47.910483!4d33.391783!16zL20vMDJ4ejRy?hl=ru" target="_blank"><p>My Location!</p></a>
                         </div>
-                        <div class = "GitHub">
+                        <div class = "m-2">
                             <a href = "https://github.com/Mercelory" target="_blank"><p>GitHub!</p></a>
                         </div>
-                        <div class = "Youtube">
+                        <div class = "m-2">
                             <a href = "https://www.youtube.com/channel/UCP8uyQprlpg7mEMzULYHAbQ" target="_blank"><p>Youtube!</p></a>
                         </div>
-                        <div class = "Shop!">
-                            <a href = "#"><p>Soon!</p></a>
+                        <div class = "m-2">
+                            <a href = "#"><p>Shop! (Soon) </p></a>
                         </div>
                     </div>
                     </section>
@@ -147,11 +147,11 @@
     <footer>
         <div class="fixed inset-x-0 bottom-0 bg-zinc-300 mb-0 w-100% h-11 p-0.5 borders flex text-center">
             <button class="active:bg-stone-100 flex w-46 borders p-1 " onclick="Start()">
-                <img src="ppics/windows_slanted-0.png" class="w-8 mr-2">
+                <img src="ppics/windows_slanted-0.png" class="w-8 h-8 mr-2">
                 <p>Start</p>
             </button>
             <div class="borders flex p-0.5 ml-0.5 bg-stone-100 text-center" id="mercelory_notepad">
-                <img src="ppics/notepad-1.png" class="mr-3 w-6">
+                <img src="ppics/notepad-1.png" class="mr-3 w-8 h-8">
                 <p>mercelory.txt</p>
             </div>
         </div>
@@ -163,5 +163,8 @@
     </footer>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="js.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>

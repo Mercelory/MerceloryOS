@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body {
     display: none;
 }
 .height{
-    height: 700px;
+    height: 500px;
 }
 
 .borders {
@@ -25,4 +26,6 @@ body {
     border-style: solid;
     border-color: #FFFFFF #808080 #808080 #FFFFFF;
 }
+
+
 
