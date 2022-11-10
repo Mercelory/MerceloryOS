@@ -16,20 +16,24 @@
 
 <body>
     <div>
-        <div class="w-12">
-            <a href="https://youtu.be/WL4ZkPsPNLM?t=108" target="_blank" onclick="myFunction()">
+        <div class="relative flex flex-col">
+            <a href="https://youtu.be/WL4ZkPsPNLM?t=108" target="_blank" onclick="">
                 <img src="ppics/artage-io-48159_1667000889.png" class="w-11 mt-8 mx-8">
                 <p class="mx-8 text-white w-8">Trash</p>
             </a>
-            <a href = "#" onclick="Doom()"> <img src="ppics/artage-io-48177_1667000904.png" class="w-11 mt-8 mx-8">
+            <a href = "#" onclick="" class = "w-11"> <img src="ppics/artage-io-48177_1667000904.png" class="w-11 mt-8 mx-8">
                 <p class="mx-2 text-white w-52">My Computer</p>
             </a>
-            <a href="#" onclick="myFunction()"> <img src="ppics/notepad-1.png" class="w-11 mt-8 mx-8">
+            <a href="#" onclick="myFunction()" class = "w-11"> <img src="ppics/notepad-1.png" class="w-11 mt-8 mx-8">
                 <p class="mx-3 text-white w-8">mercelory.txt</p>
             </a>
+            <a href="#" onclick="PaintFunc()" class = "w-11"> <img src="ppics/paint_old-0.png" class="w-11 mt-8 mx-8">
+                <p class="mx-8 text-white w-8">Paint</p>
+            </a>
+
         </div>
-        <div class="relative m-auto bg-amber-100 w-full overflow-y-scroll border-zinc-300 border-2 -translate-y-72 lg:w-3/5 height" id="mercelory">
-            <div class="z-999 sticky inset-0 bg-black text-white flex w-full justify-between">
+        <div class="mercelory relative m-auto bg-amber-100 w-full overflow-y-scroll border-zinc-300 border-2 -translate-y-72 lg:w-3/5 height" id="mercelory">
+            <div class=" bg-black text-white flex w-full justify-between">
                 <img src="ppics/notepad-1.png" class="mr-3 w-6">
                 <p class="ml-5">mercelory.txt - Notepad</p>
                 <ul class="flex flex-wrap list-none">
@@ -38,7 +42,7 @@
                     <li> <img src="ppics/delete.png" class="w-4 mt-1 ml-3px bg-white border" onclick="myFunction()"> </li>
                 </ul>
             </div>
-            <div class="bg-neutral-300 w-full">
+            <div class="z-40 sticky inset-0 bg-neutral-300 w-full">
                 <ul class="flex">
                     <a href="#Home">
                         <li class="mx-5 ml-5">Main</li>
@@ -60,8 +64,8 @@
                         <img src="ppics/wallpaperflare.com_wallpaper.jpg" class="inset-0 object-cover">
                     </div>
                 </header>
-                <div class="relative -translate-y-24 flex justify-center sm-translate-y-2">
-                    <img src="ppics/359e50919f4c498ce741777c521cc297.jpg" class="w-40 h-40 rounded-full">
+                <div class=" -translate-y-24 flex justify-center sm-translate-y-2">
+                    <img src="ppics/359e50919f4c498ce741777c521cc297.jpg" class="z-0 w-40 h-40 rounded-full">
                 </div>
                 <section>
                     <div class="w-full">
@@ -161,6 +165,24 @@
             </div>
         </div>
     </footer>
+    <section class = "paint" id = "paint">
+        <div class="relative m-auto bg-white w-full overflow-y-scroll border-zinc-300 border-2 -translate-y-72 lg:w-3/5 height">
+            <div class="z-999 sticky inset-0 bg-black text-white flex w-full justify-between">
+                <img src="ppics/notepad-1.png" class="mr-3 w-6">
+                <p class="ml-5">Paint</p>
+                <ul class="flex flex-wrap list-none">
+                    <li> <img src="ppics/minus.png" class="w-4 mt-1 ml-3px bg-white border cursor-pointer" onclick="PaintFunc()"> </li>
+                    <li> <img src="ppics/squares.png" class="w-4 mt-1 ml-3px bg-white border cursor-pointer"> </li>
+                    <li> <img src="ppics/delete.png" class="w-4 mt-1 ml-3px bg-white border cursor-pointer" onclick="PaintFunc()"> </li>
+                </ul>
+            </div>
+            </div>
+    </section>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="js.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

@@ -14,7 +14,7 @@ body {
 #mercelory,
 #mercelory_notepad,
 #start,
-#jsdos {
+#paint {
     display: none;
 }
 .height{
@@ -26,6 +26,4 @@ body {
     border-style: solid;
     border-color: #FFFFFF #808080 #808080 #FFFFFF;
 }
-
-
 

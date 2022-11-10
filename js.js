@@ -26,8 +26,8 @@ function Start() {
     }
 }
 
-function Doom() {
-  var z = document.getElementById("jsdos");
+function PaintFunc() {
+  var z = document.getElementById("paint");
 
   if (z.style.display === "none") {
     z.style.display = "flex";
@@ -36,3 +36,6 @@ function Doom() {
   }
 }
 
+$( ".mercelory, .paint" ).draggable({
+  cursor: "pointer"
+});
